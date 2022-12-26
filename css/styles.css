@@ -19,9 +19,9 @@ Table Of Contents:
 
 /*****************************************
 Colors:
-- Backgrounds - light gray #f1f9fc
-- Buttons, icons - purple #594cda
-- Buttons, icons - red #eb427e
+- Backgrounds - light gray #eff6ff
+- Buttons, icons - purple #3b82f6
+- Buttons, icons - red #4b5563
 - Headings text - black #252c38
 - Body text - dark gray #6b747b
 ******************************************/
@@ -98,7 +98,7 @@ h6 {
 }
 
 .bg-gray {
-    background-color: #f1f9fc;
+    background-color: #eff6ff;
 }
 
 .container {
@@ -109,9 +109,9 @@ h6 {
 .btn-solid-reg {
     display: inline-block;
     padding: 1.375rem 2.25rem 1.375rem 2.25rem;
-    border: 1px solid #594cda;
+    border: 1px solid #3b82f6;
     border-radius: 32px;
-    background-color: #594cda;
+    background-color: #3b82f6;
     color: #ffffff;
     font-weight: 600;
     font-size: 0.875rem;
@@ -121,18 +121,18 @@ h6 {
 }
 
 .btn-solid-reg:hover {
-    border: 1px solid #594cda;
+    border: 1px solid #3b82f6;
     background-color: transparent;
-    color: #594cda; /* needs to stay here because of the color property of a tag */
+    color: #3b82f6; /* needs to stay here because of the color property of a tag */
     text-decoration: none;
 }
 
 .btn-solid-lg {
     display: inline-block;
     padding: 1.625rem 2.75rem 1.625rem 2.75rem;
-    border: 1px solid #594cda;
+    border: 1px solid #3b82f6;
     border-radius: 32px;
-    background-color: #594cda;
+    background-color: #3b82f6;
     color: #ffffff;
     font-weight: 600;
     font-size: 0.875rem;
@@ -145,9 +145,9 @@ h6 {
 }
 
 .btn-solid-lg:hover {
-    border: 1px solid #594cda;
+    border: 1px solid #3b82f6;
     background-color: transparent;
-    color: #594cda; /* needs to stay here because of the color property of a tag */
+    color: #3b82f6; /* needs to stay here because of the color property of a tag */
     text-decoration: none;
 }
 
@@ -163,14 +163,14 @@ h6 {
 }
 
 .btn-solid-lg.secondary {
-    border: 1px solid #eb427e;
-    background-color: #eb427e;
+    border: 1px solid #4b5563;
+    background-color: #4b5563;
 }
 
 .btn-solid-lg.secondary:hover {
-    border: 1px solid #eb427e;
+    border: 1px solid #4b5563;
     background: transparent;
-    color: #eb427e; /* needs to stay here because of the color property of a tag */
+    color: #4b5563; /* needs to stay here because of the color property of a tag */
 }
 
 .btn-outline-reg {
@@ -234,7 +234,7 @@ h6 {
 }
 
 .list .fas {
-    color: #594cda;
+    color: #3b82f6;
     font-size: 0.75rem;
     line-height: 1.625rem;
 }
@@ -351,9 +351,9 @@ input[type="checkbox"] {
     display: inline-block;
     width: 100%;
     height: 3.25rem;
-    border: 1px solid #594cda;
+    border: 1px solid #3b82f6;
     border-radius: 32px;
-    background-color: #594cda;
+    background-color: #3b82f6;
     color: #252c38;
     font-weight: 600;
     font-size: 0.875rem;
@@ -416,8 +416,8 @@ input[type="checkbox"] {
 
 .navbar {
     position: relative;
-    background-color: #f1f9fc;
-    padding: 0.5rem 1rem;
+    background-color: transparent;
+    padding: 1rem;
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
@@ -425,6 +425,12 @@ input[type="checkbox"] {
     font-size: 0.875rem;
     line-height: 0.75rem;
     transition: all 0.2s ease;
+}
+
+.navbar.top-nav-collapse{
+    background-color: #ffffff;
+    -webkit-box-shadow: 0 4px 6px 0 rgb(12 0 46 / 6%);
+    box-shadow: 0 4px 6px 0 rgb(12 0 46 / 6%);
 }
 
 .fixed-top {
@@ -449,7 +455,7 @@ input[type="checkbox"] {
 
 .offcanvas-collapse {
     position: fixed;
-    top: 3.25rem; /* adjusts the height between the top of the page and the offcanvas menu */
+    top: 4rem; /* adjusts the height between the top of the page and the offcanvas menu */
     bottom: 0;
     left: 100%;
     width: 100%;
@@ -457,7 +463,7 @@ input[type="checkbox"] {
     padding-left: 1rem;
     overflow-y: auto;
     visibility: hidden;
-    background-color: #f1f9fc;
+    background-color: #ffffff;
     transition: visibility 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
     transition: transform 0.3s ease-in-out, visibility 0.3s ease-in-out;
     transition: transform 0.3s ease-in-out, visibility 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
@@ -501,7 +507,7 @@ input[type="checkbox"] {
 .dropdown.show > a,
 .nav-link:hover,
 .nav-link.active {
-    color: #ff6e84;
+    color: #3b82f6;
     text-decoration: none;
 }
 
@@ -516,7 +522,7 @@ input[type="checkbox"] {
     font-size: 1rem;
     color: #212529;
     list-style: none;
-    background-color: #f1f9fc;
+    background-color: #ffffff;
     background-clip: padding-box;
     border-radius: 0.25rem;
     animation: fadeDropdown 0.2s; /* required for the fade animation */
@@ -556,8 +562,8 @@ input[type="checkbox"] {
 .dropdown-item:hover,
 .dropdown-item:focus {
     text-decoration: none;
-    background-color: #f1f9fc;
-    color: #ff6e84;
+    background-color: #eff6ff;
+    color: #3b82f6;
 }
 
 .dropdown-divider {
@@ -590,7 +596,7 @@ input[type="checkbox"] {
     padding: 3.125rem 1rem 2.125rem 1rem;
     border: none;
     border-radius: 16px;
-    background-color: #f1f9fc;
+    background-color: #eff6ff;
 }
 
 .cards-1 .card-image {
@@ -636,7 +642,7 @@ input[type="checkbox"] {
 }
 
 .lightbox-basic .btn-solid-reg.mfp-close:hover {
-    color: #594cda;
+    color: #3b82f6;
 }
 /* end of action Button */
 
@@ -792,7 +798,7 @@ input[type="checkbox"] {
 
 .cards-2 .card .card-title {
     margin-bottom: 1rem;
-    color: #eb427e;
+    color: #4b5563;
     font-weight: 700;
     font-size: 1.5rem;
     line-height: 1.875rem;
@@ -851,7 +857,7 @@ input[type="checkbox"] {
     position: relative;
     width: 13.75rem;
     padding: 0.3125rem 0 0.3125rem 4.125rem;
-    background-color: #eb427e;
+    background-color: #4b5563;
     color: #ffffff;
     -webkit-transform: rotate(45deg) translate3d(0, 0, 0);
     -ms-transform: rotate(45deg) translate3d(0, 0, 0);
@@ -945,7 +951,7 @@ a:hover.back-to-top {
 .ex-header {
     padding-top: 8.5rem;
     padding-bottom: 4rem;
-    background-color: #f1f9fc;
+    background-color: #eff6ff;
 }
 
 .ex-basic-1 .list-unstyled .fas {
@@ -955,7 +961,7 @@ a:hover.back-to-top {
 
 .ex-basic-1 .text-box {
     padding: 1.25rem 1.25rem 0.5rem 1.25rem;
-    background-color: #f1f9fc;
+    background-color: #eff6ff;
 }
 
 .ex-cards-1 .card {
@@ -969,7 +975,7 @@ a:hover.back-to-top {
 }
 
 .ex-cards-1 .card .fa-stack-2x {
-    color: #ff6e84;
+    color: #3b82f6;
 }
 
 .ex-cards-1 .card .fa-stack-1x {
@@ -1018,9 +1024,11 @@ a:hover.back-to-top {
     }
 
     .navbar.top-nav-collapse {
-        padding-top: 0.5rem;
-        padding-bottom: 0.5rem;
-        background-color: #f1f9fc;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        background: #ffffff;
+        -webkit-box-shadow: 0 4px 6px 0 rgb(12 0 46 / 6%);
+        box-shadow: 0 4px 6px 0 rgb(12 0 46 / 6%);
     }
 
     .offcanvas-collapse {
