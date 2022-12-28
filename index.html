@@ -1,534 +1,828 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
-        <!-- SEO Meta Tags -->
-        <meta name="description" content="Pavo is a mobile app Tailwind CSS HTML template created to help you present benefits, features and information about mobile apps in order to convince visitors to download them" />
-        <meta name="author" content="Your name" />
+    <!-- SEO Meta Tags -->
+    <meta
+      name="description"
+      content="Pavo is a mobile app Tailwind CSS HTML template created to help you present benefits, features and information about mobile apps in order to convince visitors to download them"
+    />
+    <meta name="author" content="Your name" />
 
-        <!-- OG Meta Tags to improve the way the post looks when you share the page on Facebook, Twitter, LinkedIn -->
-        <meta property="og:site_name" content="" /> <!-- website name -->
-        <meta property="og:site" content="" /> <!-- website link -->
-        <meta property="og:title" content="" /> <!-- title shown in the actual shared post -->
-        <meta property="og:description" content="" /> <!-- description shown in the actual shared post -->
-        <meta property="og:image" content="" /> <!-- image link, make sure it's jpg -->
-        <meta property="og:url" content="" /> <!-- where do you want your post to link to -->
-        <meta name="twitter:card" content="summary_large_image" /> <!-- to have large image post format in Twitter -->
+    <!-- OG Meta Tags to improve the way the post looks when you share the page on Facebook, Twitter, LinkedIn -->
+    <meta property="og:site_name" content="" />
+    <!-- website name -->
+    <meta property="og:site" content="" />
+    <!-- website link -->
+    <meta property="og:title" content="" />
+    <!-- title shown in the actual shared post -->
+    <meta property="og:description" content="" />
+    <!-- description shown in the actual shared post -->
+    <meta property="og:image" content="" />
+    <!-- image link, make sure it's jpg -->
+    <meta property="og:url" content="" />
+    <!-- where do you want your post to link to -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <!-- to have large image post format in Twitter -->
 
-        <!-- Webpage Title -->
-        <title>AlamKoding - Jasa Aplikasi Terbaru</title>
+    <!-- Webpage Title -->
+    <title>AlamKoding - Jasa Aplikasi Terbaru</title>
 
-        <!-- Styles -->
-        <link rel="preconnect" href="https://fonts.gstatic.com" />
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet" />
-        <link href="css/fontawesome-all.css" rel="stylesheet" />
-        <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" />
-        <link href="css/swiper.css" rel="stylesheet" />
-        <link href="css/magnific-popup.css" rel="stylesheet" />
-        <link href="css/styles.css" rel="stylesheet" />
+    <!-- Styles -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link href="css/fontawesome-all.css" rel="stylesheet" />
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link href="css/swiper.css" rel="stylesheet" />
+    <link href="css/magnific-popup.css" rel="stylesheet" />
+    <link href="css/styles.css" rel="stylesheet" />
 
-        <!-- Favicon  -->
-        <link rel="icon" href="images/favicon.ico" />
-    </head>
-    <body data-spy="scroll" data-target=".fixed-top">
+    <!-- Favicon  -->
+    <link rel="icon" href="images/favicon.ico" />
+  </head>
+  <body data-spy="scroll" data-target=".fixed-top">
+    <!-- Navigation -->
+    <nav class="navbar fixed-top">
+      <div
+        class="container sm:px-4 lg:px-8 flex flex-wrap items-center justify-between lg:flex-nowrap"
+      >
+        <!-- Image Logo -->
+        <a
+          class="inline-block mr-4 py-0.5 text-xl whitespace-nowrap hover:no-underline focus:no-underline text-gray-800"
+          href="index.html"
+        >
+          <div class="flex">
+            <img
+              src="images/logo.jpg"
+              alt="alternative"
+              class="h-8 rounded-full"
+            />
+            <span class="ml-2 align-middle"> AlamKoding </span>
+          </div>
+        </a>
 
-        <!-- Navigation -->
-        <nav class="navbar fixed-top">
-            <div class="container sm:px-4 lg:px-8 flex flex-wrap items-center justify-between lg:flex-nowrap">
-                
-                <!-- Image Logo -->
-                <a class="inline-block mr-4 py-0.5 text-xl whitespace-nowrap hover:no-underline focus:no-underline text-gray-800" href="index.html">
-                    <div class="flex">
-                        <img src="images/logo.jpg" alt="alternative" class="h-8 rounded-full" />
-                        <span class="ml-2 align-middle">
-                            AlamKoding
-                        </span>
-                    </div>
-                </a>
+        <button
+          class="background-transparent rounded text-xl leading-none hover:no-underline focus:no-underline lg:hidden lg:text-gray-400"
+          type="button"
+          data-toggle="offcanvas"
+        >
+          <span
+            class="navbar-toggler-icon inline-block w-6 h-6 align-middle"
+          ></span>
+        </button>
 
-                <button class="background-transparent rounded text-xl leading-none hover:no-underline focus:no-underline lg:hidden lg:text-gray-400" type="button" data-toggle="offcanvas">
-                    <span class="navbar-toggler-icon inline-block w-6 h-6 align-middle"></span>
-                </button>
-
-                <div class="navbar-collapse offcanvas-collapse lg:flex lg:flex-grow lg:items-center" id="navbarsExampleDefault">
-                    <ul class="pl-0 mt-3 mb-2 ml-auto flex flex-col list-none lg:mt-0 lg:mb-0 lg:flex-row">
-                        <li>
-                            <a class="nav-link page-scroll active" href="#header">Home <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li>
-                            <a class="nav-link" href="#">Layanan</a>
-                        </li>
-                        <li>
-                            <a class="nav-link" href="#">Produk</a>
-                        </li>
-                        <li>
-                            <a class="nav-link" href="#">Hubungi Kami</a>
-                        </li>
-                        <li class="dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Tentang Kami</a>
-                            <div class="dropdown-menu" aria-labelledby="dropdown01">
-                                <a class="dropdown-item page-scroll" href="#">Profil Alam Koding</a>
-                                <a class="dropdown-item page-scroll" href="#">Anggota Tim</a>
-                                <a class="dropdown-item page-scroll" href="#">Portfolio</a>
-                            </div>
-                        </li>
-                    </ul>
-                    <span class="block lg:ml-3.5 font-normal">
-                        <a class="no-underline" href="https://wa.me/6285719630485" target="_blank">
-                            <i class="fab fa-whatsapp text-blue-500 hover:text-gray-600 text-xl transition-all duration-200 mr-1.5"></i>
-                        </a>
-                        <a class="no-underline" href="https://www.youtube.com/c/alamkoding" target="_blank">
-                            <i class="fab fa-youtube text-blue-500 hover:text-gray-600 text-xl transition-all duration-200 mr-1.5"></i>
-                        </a>
-                        <a class="no-underline" href="https://www.instagram.com/dev.alamkoding" target="_blank">
-                            <i class="fab fa-instagram text-blue-500 hover:text-gray-600 text-xl transition-all duration-200 mr-1.5"></i>
-                        </a>
-                        <a class="no-underline" href="https://www.facebook.com/" target="_blank">
-                            <i class="fab fa-facebook text-blue-500 hover:text-gray-600 text-xl transition-all duration-200"></i>
-                        </a>
-                    </span>
-                </div> <!-- end of navbar-collapse -->
-            </div> <!-- end of container -->
-        </nav> <!-- end of navbar -->
-        <!-- end of navigation -->
-
-        <!-- Header -->
-        <header id="header" class="header py-28 text-center md:pt-36 lg:text-left xl:pt-44 xl:pb-32">
-            <div class="container px-4 sm:px-8 lg:grid lg:grid-cols-2 lg:gap-x-8">
-                <div class="mb-16 xl:mr-12">
-                    <h1 class="h1-large mb-5">Realisasikan Ide Website anda dengan Kami</h1>
-                    <p class="p-large mb-8">Kami siap membantu anda untuk membuat website yang anda perlukan</p>
-                    <a class="btn-solid-lg" href="#your-link">
-                        <i class="fab fa fa-user"></i> Tentang Kami
-                    </a>
-                    <a class="btn-solid-lg secondary" href="#your-link">
-                        <i class="fab fa-whatsapp"></i> Hubungi Kami
-                    </a>
-                </div>
-                <div class="xl:text-right">
-                    <img class="inline" src="images/home/hero.svg" alt="alternative" />
-                </div>
-            </div> <!-- end of container -->
-            <div class="container px-4 sm:px-8 flex flex-wrap gap-12 justify-center">
-                <img class="full h-20 opacity-50 hover:opacity-100 ease-in-out duration-300" src="/images/icons/php.svg" alt="">
-                <img class="full h-20 opacity-50 hover:opacity-100 ease-in-out duration-300" src="/images/icons/laravel.svg" alt="">
-                <img class="full h-20 opacity-50 hover:opacity-100 ease-in-out duration-300" src="/images/icons/codeigniter.svg" alt="">
-                <img class="full h-20 opacity-50 hover:opacity-100 ease-in-out duration-300" src="/images/icons/react.svg" alt="">
-                <img class="full h-20 opacity-50 hover:opacity-100 ease-in-out duration-300" src="/images/icons/wordpress.svg" alt="">
-            </div>
-        </header> <!-- end of header -->
-        <!-- end of header -->
-
-
-        <!-- Introduction -->
-        <div class="pt-4 pb-14 text-center">
-            <div class="container px-4 sm:px-8 xl:px-4">
-                <p class="mb-4 text-gray-800 text-3xl leading-10 lg:max-w-5xl lg:mx-auto"> 
-                    Kembangkan Usaha dan Bisnis dengan aplikasi atau website anda bersama kami
-                </p>
-            </div> <!-- end of container -->
+        <div
+          class="navbar-collapse offcanvas-collapse lg:flex lg:flex-grow lg:items-center"
+          id="navbarsExampleDefault"
+        >
+          <ul
+            class="pl-0 mt-3 mb-2 ml-auto flex flex-col list-none lg:mt-0 lg:mb-0 lg:flex-row"
+          >
+            <li>
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li>
+              <a class="nav-link" href="services.html">Layanan</a>
+            </li>
+            <li>
+              <a class="nav-link" href="products.html">Produk</a>
+            </li>
+            <li>
+              <a class="nav-link" href="contacts.html">Hubungi Kami</a>
+            </li>
+            <li class="dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="about.html"
+                id="dropdown01"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+                >Tentang Kami</a
+              >
+              <div class="dropdown-menu" aria-labelledby="dropdown01">
+                <a class="dropdown-item page-scroll" href="team.html">Tim Kami</a>
+                <a class="dropdown-item page-scroll" href="portfolio.html">Portfolio</a>
+              </div>
+            </li>
+          </ul>
+          <span class="block lg:ml-3.5 font-normal">
+            <a
+              class="no-underline"
+              href="https://wa.me/6285719630485"
+              target="_blank"
+            >
+              <i
+                class="fab fa-whatsapp text-blue-500 hover:text-gray-600 text-xl transition-all duration-200 mr-1.5"
+              ></i>
+            </a>
+            <a
+              class="no-underline"
+              href="https://www.youtube.com/c/alamkoding"
+              target="_blank"
+            >
+              <i
+                class="fab fa-youtube text-blue-500 hover:text-gray-600 text-xl transition-all duration-200 mr-1.5"
+              ></i>
+            </a>
+            <a
+              class="no-underline"
+              href="https://www.instagram.com/dev.alamkoding"
+              target="_blank"
+            >
+              <i
+                class="fab fa-instagram text-blue-500 hover:text-gray-600 text-xl transition-all duration-200 mr-1.5"
+              ></i>
+            </a>
+            <a
+              class="no-underline"
+              href="https://www.facebook.com/"
+              target="_blank"
+            >
+              <i
+                class="fab fa-facebook text-blue-500 hover:text-gray-600 text-xl transition-all duration-200"
+              ></i>
+            </a>
+          </span>
         </div>
-        <!-- end of introduction -->
+        <!-- end of navbar-collapse -->
+      </div>
+      <!-- end of container -->
+    </nav>
+    <!-- end of navbar -->
+    <!-- end of navigation -->
 
+    <!-- Header -->
+    <header
+      id="header"
+      class="header py-28 text-center md:pt-36 lg:text-left xl:pt-44 xl:pb-32"
+    >
+      <div class="container px-4 sm:px-8 lg:grid lg:grid-cols-2 lg:gap-x-8">
+        <div class="mb-16 xl:mr-12">
+          <h1 class="h1-large mb-5">
+            Realisasikan Ide Website anda dengan Kami
+          </h1>
+          <p class="p-large mb-8">
+            Kami siap membantu anda untuk membuat website yang anda perlukan
+          </p>
+          <a class="btn-solid-lg" href="about.html">
+            <i class="fab fa fa-user"></i> Tentang Kami
+          </a>
+          <a class="btn-solid-lg secondary" href="#your-link">
+            <i class="fab fa-whatsapp"></i> Hubungi Kami
+          </a>
+        </div>
+        <div class="xl:text-right">
+          <img class="inline" src="images/home/hero.svg" alt="alternative" />
+        </div>
+      </div>
+      <!-- end of container -->
+      <div class="container px-4 sm:px-8 flex flex-wrap gap-12 justify-center">
+        <img
+          class="full h-20 opacity-50 hover:opacity-100 ease-in-out duration-300"
+          src="/images/icons/php.svg"
+          alt=""
+        />
+        <img
+          class="full h-20 opacity-50 hover:opacity-100 ease-in-out duration-300"
+          src="/images/icons/laravel.svg"
+          alt=""
+        />
+        <img
+          class="full h-20 opacity-50 hover:opacity-100 ease-in-out duration-300"
+          src="/images/icons/codeigniter.svg"
+          alt=""
+        />
+        <img
+          class="full h-20 opacity-50 hover:opacity-100 ease-in-out duration-300"
+          src="/images/icons/react.svg"
+          alt=""
+        />
+        <img
+          class="full h-20 opacity-50 hover:opacity-100 ease-in-out duration-300"
+          src="/images/icons/wordpress.svg"
+          alt=""
+        />
+      </div>
+    </header>
+    <!-- end of header -->
+    <!-- end of header -->
 
-        <!-- Features -->
-        <div id="features" class="cards-1">
-            <div class="container px-4 sm:px-8 xl:px-4">
-                <!-- Card -->
+    <!-- Introduction -->
+    <div class="pt-4 pb-14 text-center">
+      <div class="container px-4 sm:px-8 xl:px-4">
+        <p
+          class="mb-4 text-gray-800 text-3xl leading-10 lg:max-w-5xl lg:mx-auto"
+        >
+          Kembangkan Usaha dan Bisnis dengan aplikasi atau website anda bersama
+          kami
+        </p>
+      </div>
+      <!-- end of container -->
+    </div>
+    <!-- end of introduction -->
+
+    <!-- Features -->
+    <div id="features" class="cards-1">
+      <div class="container px-4 sm:px-8 xl:px-4">
+        <!-- Card -->
+        <div class="card">
+          <div class="card-image">
+            <img
+              src="images/features/pembuatan-aplikasi.svg"
+              alt="alternative"
+            />
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Pembuatan Aplikasi</h5>
+            <p class="mb-4">
+              We build apps with the latest technology that come pre-installed
+              and start selling smarter
+            </p>
+          </div>
+        </div>
+        <!-- end of card -->
+
+        <!-- Card -->
+        <div class="card">
+          <div class="card-image">
+            <img src="images/features/custom.svg" alt="alternative" />
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Kustom Aplikasi</h5>
+            <p class="mb-4">
+              Keep the software technologies secure and up to dates with extra
+              support.
+            </p>
+          </div>
+        </div>
+        <!-- end of card -->
+
+        <!-- Card -->
+        <div class="card">
+          <div class="card-image">
+            <img src="images/features/update.svg" alt="alternative" />
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Update Fitur Aplikasi</h5>
+            <p class="mb-4">
+              Optimized code and innovative technology insure no delays and
+              ultra-fast responsiveness
+            </p>
+          </div>
+        </div>
+        <!-- end of card -->
+      </div>
+      <!-- end of container -->
+    </div>
+    <!-- end of cards-1 -->
+    <!-- end of features -->
+
+    <!-- Details 1 -->
+    <div id="details" class="pt-12 pb-16 lg:pt-16">
+      <div class="container px-4 sm:px-8 lg:grid lg:grid-cols-12 lg:gap-x-12">
+        <div class="lg:col-span-5">
+          <div class="mb-16 lg:mb-0 xl:mt-16">
+            <h2 class="mb-6">Mengapa harus Kami?</h2>
+            <p class="mb-4">
+              Based on our team's extensive experience in developing line of
+              business applications and constructive customer feedback we
+              reached a new level of revenue.
+            </p>
+            <p class="mb-4">
+              We enjoy helping small and medium sized tech businesses take a
+              shot at established Fortune 500 companies
+            </p>
+          </div>
+        </div>
+        <!-- end of col -->
+        <div class="lg:col-span-7">
+          <div class="xl:ml-14">
+            <img
+              class="inline"
+              src="images/home/mengapa-kami.svg"
+              alt="alternative"
+            />
+          </div>
+        </div>
+        <!-- end of col -->
+      </div>
+      <!-- end of container -->
+    </div>
+    <!-- end of details 1 -->
+
+    <!-- Details 2 -->
+    <div class="py-24 bg-blue-50">
+      <div class="container px-4 sm:px-8 lg:grid lg:grid-cols-12 lg:gap-x-12">
+        <div class="lg:col-span-7">
+          <div class="mb-12 lg:mb-0 xl:mr-14">
+            <img
+              class="inline"
+              src="images/home/hasil-berkualitas.svg"
+              alt="alternative"
+            />
+          </div>
+        </div>
+        <!-- end of col -->
+        <div class="lg:col-span-5">
+          <div class="xl:mt-12">
+            <h2 class="mb-6">Hasil yang berkualitas</h2>
+            <ul class="list mb-7 space-y-2">
+              <li class="flex">
+                <i class="fas fa-chevron-right"></i>
+                <div>Features that will help you and your marketers</div>
+              </li>
+              <li class="flex">
+                <i class="fas fa-chevron-right"></i>
+                <div>Smooth learning curve due to the knowledge base</div>
+              </li>
+              <li class="flex">
+                <i class="fas fa-chevron-right"></i>
+                <div>Ready out-of-the-box with minor setup settings</div>
+              </li>
+            </ul>
+            <a
+              class="btn-solid-reg popup-with-move-anim mr-1.5"
+              href="#details-lightbox"
+              >Lightbox</a
+            >
+            <a class="btn-outline-reg" href="article.html">Details</a>
+          </div>
+        </div>
+        <!-- end of col -->
+      </div>
+      <!-- end of container -->
+    </div>
+    <!-- end of details 2 -->
+
+    <!-- Details Lightbox -->
+    <!-- Lightbox -->
+    <div id="details-lightbox" class="lightbox-basic zoom-anim-dialog mfp-hide">
+      <div class="lg:grid lg:grid-cols-12 lg:gap-x-8">
+        <button title="Close (Esc)" type="button" class="mfp-close x-button">
+          ×
+        </button>
+        <div class="lg:col-span-8">
+          <div class="mb-12 text-center lg:mb-0 lg:text-left xl:mr-6">
+            <img
+              class="inline rounded-lg"
+              src="images/details-lightbox.jpg"
+              alt="alternative"
+            />
+          </div>
+        </div>
+        <!-- end of col -->
+        <div class="lg:col-span-4">
+          <h3 class="mb-2">Goals Setting</h3>
+          <hr class="w-11 h-0.5 mt-0.5 mb-4 ml-0 border-none bg-indigo-600" />
+          <p>
+            The app can easily help you track your personal development
+            evolution if you take the time to set it up.
+          </p>
+          <h4 class="mt-7 mb-2.5">User Feedback</h4>
+          <p class="mb-4">
+            This is a great app which can help you save time and make your live
+            easier. And it will help improve your productivity.
+          </p>
+          <ul class="list mb-6 space-y-2">
+            <li class="flex">
+              <i class="fas fa-chevron-right"></i>
+              <div>Splash screen panel</div>
+            </li>
+            <li class="flex">
+              <i class="fas fa-chevron-right"></i>
+              <div>Statistics graph report</div>
+            </li>
+            <li class="flex">
+              <i class="fas fa-chevron-right"></i>
+              <div>Events calendar layout</div>
+            </li>
+            <li class="flex">
+              <i class="fas fa-chevron-right"></i>
+              <div>Location details screen</div>
+            </li>
+            <li class="flex">
+              <i class="fas fa-chevron-right"></i>
+              <div>Onboarding steps interface</div>
+            </li>
+          </ul>
+          <a class="btn-solid-reg mfp-close page-scroll" href="#download"
+            >Download</a
+          >
+          <button class="btn-outline-reg mfp-close as-button" type="button">
+            Back
+          </button>
+        </div>
+        <!-- end of col -->
+      </div>
+      <!-- end of row -->
+    </div>
+    <!-- end of lightbox-basic -->
+    <!-- end of lightbox -->
+    <!-- end of details lightbox -->
+
+    <!-- Details 3 -->
+    <div class="pt-16 pb-12">
+      <div class="container px-4 sm:px-8 lg:grid lg:grid-cols-12 lg:gap-x-12">
+        <div class="lg:col-span-5">
+          <div class="mb-16 lg:mb-0 xl:mt-16">
+            <h2 class="mb-6">Harga Terbaik</h2>
+            <p class="mb-4">
+              Get a glimpse of what this app can do for your marketing
+              automation and understand why current users are so excited when
+              using Pavo together with their teams.
+            </p>
+            <p class="mb-4">
+              We will promptly answer any questions and honor your requests
+              based on the service level agreement
+            </p>
+          </div>
+        </div>
+        <!-- end of col -->
+        <div class="lg:col-span-7">
+          <div class="ml-14">
+            <img
+              class="inline"
+              src="images/home/harga-terbaik.svg"
+              alt="alternative"
+            />
+          </div>
+        </div>
+        <!-- end of col -->
+      </div>
+      <!-- end of container -->
+    </div>
+    <!-- end of details 3 -->
+
+    <!-- Testimonials -->
+    <div class="slider-1 py-32 bg-gray">
+      <div class="container px-4 sm:px-8">
+        <h2 class="mb-12 text-center lg:max-w-xl lg:mx-auto">
+          Apa kata mereka
+        </h2>
+
+        <!-- Card Slider -->
+        <div class="slider-container">
+          <div class="swiper-container card-slider">
+            <div class="swiper-wrapper">
+              <!-- Slide -->
+              <div class="swiper-slide">
                 <div class="card">
-                    <div class="card-image">
-                        <img src="images/features/pembuatan-aplikasi.svg" alt="alternative" />
-                    </div>
-                    <div class="card-body">
-                        <h5 class="card-title">Pembuatan Aplikasi</h5>
-                        <p class="mb-4">We build apps with the latest technology that come pre-installed and start selling smarter</p>
-                    </div>
-                </div>
-                <!-- end of card -->
-
-                <!-- Card -->
-                <div class="card">
-                    <div class="card-image">
-                        <img src="images/features/custom.svg" alt="alternative" />
-                    </div>
-                    <div class="card-body">
-                        <h5 class="card-title">Kustom Aplikasi</h5>
-                        <p class="mb-4">Keep the software technologies secure and up to dates with extra support.</p>
-                    </div>
-                </div>
-                <!-- end of card -->
-
-                <!-- Card -->
-                <div class="card">
-                    <div class="card-image">
-                        <img src="images/features/update.svg" alt="alternative" />
-                    </div>
-                    <div class="card-body">
-                        <h5 class="card-title">Update Fitur Aplikasi</h5>
-                        <p class="mb-4">Optimized code and innovative technology insure no delays and ultra-fast responsiveness</p>
-                    </div>
-                </div>
-                <!-- end of card -->
-
-            </div> <!-- end of container -->
-        </div> <!-- end of cards-1 -->
-        <!-- end of features -->
-
-
-        <!-- Details 1 -->
-        <div id="details" class="pt-12 pb-16 lg:pt-16">
-            <div class="container px-4 sm:px-8 lg:grid lg:grid-cols-12 lg:gap-x-12">
-                <div class="lg:col-span-5">
-                    <div class="mb-16 lg:mb-0 xl:mt-16">
-                        <h2 class="mb-6">Mengapa harus Kami?</h2>
-                        <p class="mb-4">Based on our team's extensive experience in developing line of business applications and constructive customer feedback we reached a new level of revenue.</p>
-                        <p class="mb-4">We enjoy helping small and medium sized tech businesses take a shot at established Fortune 500 companies</p>
-                    </div>
-                </div> <!-- end of col -->
-                <div class="lg:col-span-7">
-                    <div class="xl:ml-14">
-                        <img class="inline" src="images/home/mengapa-kami.svg" alt="alternative" />
-                    </div>
-                </div> <!-- end of col -->
-            </div> <!-- end of container -->
-        </div>
-        <!-- end of details 1 -->
-
-
-        <!-- Details 2 -->
-        <div class="py-24 bg-blue-50">
-            <div class="container px-4 sm:px-8 lg:grid lg:grid-cols-12 lg:gap-x-12">
-                <div class="lg:col-span-7">
-                    <div class="mb-12 lg:mb-0 xl:mr-14">
-                        <img class="inline" src="images/home/hasil-berkualitas.svg" alt="alternative" />
-                    </div>
-                </div> <!-- end of col -->
-                <div class="lg:col-span-5">
-                    <div class="xl:mt-12">
-                        <h2 class="mb-6">Hasil yang berkualitas</h2>
-                        <ul class="list mb-7 space-y-2">
-                            <li class="flex">
-                                <i class="fas fa-chevron-right"></i>
-                                <div>Features that will help you and your marketers</div>
-                            </li>
-                            <li class="flex">
-                                <i class="fas fa-chevron-right"></i>
-                                <div>Smooth learning curve due to the knowledge base</div>
-                            </li>
-                            <li class="flex">
-                                <i class="fas fa-chevron-right"></i>
-                                <div>Ready out-of-the-box with minor setup settings</div>
-                            </li>
-                        </ul>
-                        <a class="btn-solid-reg popup-with-move-anim mr-1.5" href="#details-lightbox">Lightbox</a>
-                        <a class="btn-outline-reg" href="article.html">Details</a>
-                    </div>
-                </div> <!-- end of col -->
-            </div> <!-- end of container -->
-        </div>
-        <!-- end of details 2 -->
-
-
-        <!-- Details Lightbox -->
-        <!-- Lightbox -->
-        <div id="details-lightbox" class="lightbox-basic zoom-anim-dialog mfp-hide">
-            <div class="lg:grid lg:grid-cols-12 lg:gap-x-8">
-                <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
-                <div class="lg:col-span-8">
-                    <div class="mb-12 text-center lg:mb-0 lg:text-left xl:mr-6">
-                        <img class="inline rounded-lg" src="images/details-lightbox.jpg" alt="alternative" />
-                    </div>
-                </div> <!-- end of col -->
-                <div class="lg:col-span-4">
-                    <h3 class="mb-2">Goals Setting</h3>
-                    <hr class="w-11 h-0.5 mt-0.5 mb-4 ml-0 border-none bg-indigo-600" />
-                    <p>The app can easily help you track your personal development evolution if you take the time to set it up.</p>
-                    <h4 class="mt-7 mb-2.5">User Feedback</h4>
-                    <p class="mb-4">This is a great app which can help you save time and make your live easier. And it will help improve your productivity.</p>
-                    <ul class="list mb-6 space-y-2">
-                        <li class="flex">
-                            <i class="fas fa-chevron-right"></i>
-                            <div>Splash screen panel</div>
-                        </li>
-                        <li class="flex">
-                            <i class="fas fa-chevron-right"></i>
-                            <div>Statistics graph report</div>
-                        </li>
-                        <li class="flex">
-                            <i class="fas fa-chevron-right"></i>
-                            <div>Events calendar layout</div>
-                        </li>
-                        <li class="flex">
-                            <i class="fas fa-chevron-right"></i>
-                            <div>Location details screen</div>
-                        </li>
-                        <li class="flex">
-                            <i class="fas fa-chevron-right"></i>
-                            <div>Onboarding steps interface</div>
-                        </li>
-                    </ul>
-                    <a class="btn-solid-reg mfp-close page-scroll" href="#download">Download</a>
-                    <button class="btn-outline-reg mfp-close as-button" type="button">Back</button>
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of lightbox-basic -->
-        <!-- end of lightbox -->
-        <!-- end of details lightbox -->
-
-
-        <!-- Details 3 -->
-        <div class="pt-16 pb-12">
-            <div class="container px-4 sm:px-8 lg:grid lg:grid-cols-12 lg:gap-x-12">
-                <div class="lg:col-span-5">
-                    <div class="mb-16 lg:mb-0 xl:mt-16">
-                        <h2 class="mb-6">Harga Terbaik</h2>
-                        <p class="mb-4">Get a glimpse of what this app can do for your marketing automation and understand why current users are so excited when using Pavo
-                            together with their teams.</p>
-                        <p class="mb-4">We will promptly answer any questions and honor your requests based on the service level agreement</p>
-                    </div>
-                </div> <!-- end of col -->
-                <div class="lg:col-span-7">
-                    <div class="ml-14">
-                        <img class="inline" src="images/home/harga-terbaik.svg" alt="alternative" />
-                    </div>
-                </div> <!-- end of col -->
-            </div> <!-- end of container -->
-        </div>
-        <!-- end of details 3 -->
-
-        <!-- Testimonials -->
-        <div class="slider-1 py-32 bg-gray">
-            <div class="container px-4 sm:px-8">
-                <h2 class="mb-12 text-center lg:max-w-xl lg:mx-auto">Apa kata mereka</h2>
-
-                <!-- Card Slider -->
-                <div class="slider-container">
-                    <div class="swiper-container card-slider">
-                        <div class="swiper-wrapper">
-                            
-                            <!-- Slide -->
-                            <div class="swiper-slide">
-                                <div class="card">
-                                    <img class="card-image" src="images/testimonials/testimonial-1.jpg" alt="alternative" />
-                                    <div class="card-body">
-                                        <p class="italic mb-3">It's been so fun to work with Pavo, I've managed to integrate it properly into my business flow and it's great</p>
-                                        <p class="testimonial-author">Jude Thorn - Designer</p>
-                                    </div>
-                                </div>
-                            </div> <!-- end of swiper-slide -->
-                            <!-- end of slide -->
-
-                            <!-- Slide -->
-                            <div class="swiper-slide">
-                                <div class="card">
-                                    <img class="card-image" src="images/testimonials/testimonial-2.jpg" alt="alternative" />
-                                    <div class="card-body">
-                                        <p class="italic mb-3">We were so focused on launching as many campaigns as possible that we've forgotten to target our loyal customers</p>
-                                        <p class="testimonial-author">Roy Smith - Developer</p>
-                                    </div>
-                                </div>
-                            </div> <!-- end of swiper-slide -->
-                            <!-- end of slide -->
-
-                            <!-- Slide -->
-                            <div class="swiper-slide">
-                                <div class="card">
-                                    <img class="card-image" src="images/testimonials/testimonial-3.jpg" alt="alternative" />
-                                    <div class="card-body">
-                                        <p class="italic mb-3">I've been searching for a tool like Pavo for so long. I love the reports it generates and the amazing high accuracy</p>
-                                        <p class="testimonial-author">Marsha Singer - Marketer</p>
-                                    </div>
-                                </div>
-                            </div> <!-- end of swiper-slide -->
-                            <!-- end of slide -->
-
-                            <!-- Slide -->
-                            <div class="swiper-slide">
-                                <div class="card">
-                                    <img class="card-image" src="images/testimonials/testimonial-4.jpg" alt="alternative" />
-                                    <div class="card-body">
-                                        <p class="italic mb-3">We've been waiting for a powerful piece of software that can help businesses manage their marketing projects</p>
-                                        <p class="testimonial-author">Tim Shaw - Designer</p>
-                                    </div>
-                                </div>
-                            </div> <!-- end of swiper-slide -->
-                            <!-- end of slide -->
-
-                            <!-- Slide -->
-                            <div class="swiper-slide">
-                                <div class="card">
-                                    <img class="card-image" src="images/testimonials/testimonial-5.jpg" alt="alternative" />
-                                    <div class="card-body">
-                                        <p class="italic mb-3">Searching for a great prototyping and layout design app was difficult but thankfully I found app suite quickly</p>
-                                        <p class="testimonial-author">Lindsay Spice - Marketer</p>
-                                    </div>
-                                </div>
-                            </div> <!-- end of swiper-slide -->
-                            <!-- end of slide -->
-
-                            <!-- Slide -->
-                            <div class="swiper-slide">
-                                <div class="card">
-                                    <img class="card-image" src="images/testimonials/testimonial-6.jpg" alt="alternative" />
-                                    <div class="card-body">
-                                        <p class="italic mb-3">The app support team is amazing. They've helped me with some issues and I am so grateful to the entire team</p>
-                                        <p class="testimonial-author">Ann Blake - Developer</p>
-                                    </div>
-                                </div>
-                            </div> <!-- end of swiper-slide -->
-                            <!-- end of slide -->
-
-                        </div> <!-- end of swiper-wrapper -->
-
-                        <!-- Add Arrows -->
-                        <div class="swiper-button-next"></div>
-                        <div class="swiper-button-prev"></div>
-                        <!-- end of add arrows -->
-
-                    </div> <!-- end of swiper-container -->
-                </div> <!-- end of slider-container -->
-                <!-- end of card slider -->
-
-            </div> <!-- end of container -->
-        </div> <!-- end of slider-1 -->
-        <!-- end of testimonials -->
-
-
-        <!-- Conclusion -->
-        <div id="download" class="basic-5">
-            <div class="container px-4 sm:px-8 lg:grid lg:grid-cols-2">
-                <div class="mb-16 lg:mb-0">
-                    <img src="images/home/contact-us.svg" alt="alternative" />
-                </div>
-                <div class="lg:mt-24 xl:mt-44 xl:ml-12">
-                    <p class="mb-9 text-gray-800 text-3xl leading-10">
-                        Jangan buang waktu anda untuk merealisasikan ide project terbaik anda. Hubungi kami sekarang
+                  <img
+                    class="card-image"
+                    src="images/testimonials/testimonial-1.jpg"
+                    alt="alternative"
+                  />
+                  <div class="card-body">
+                    <p class="italic mb-3">
+                      It's been so fun to work with Pavo, I've managed to
+                      integrate it properly into my business flow and it's great
                     </p>
-                    <a class="btn-solid-lg" href="#your-link"><i class="fab fa-whatsapp"></i>Hubungi Kami</a>
-                </div>
-            </div> <!-- end of container -->
-        </div> <!-- end of basic-5 -->
-        <!-- end of conclusion -->
-
-        <footer class="text-center lg:text-left text-gray-600">
-            <div class="bg-blue-50">
-                <div class="container">
-                    <div class="flex justify-center items-center lg:justify-between p-6">
-                      <div class="mr-12 hidden lg:block">
-                        <span>Get connected with us on social networks:</span>
-                      </div>
-                      <div class="flex justify-center">
-                        <span class="block lg:ml-3.5">
-                            <a class="no-underline" href="https://wa.me/6285719630485" target="_blank">
-                                <i class="fab fa-whatsapp hover:text-blue-500 text-gray-600 text-xl transition-all duration-200 mr-1.5"></i>
-                            </a>
-                            <a class="no-underline" href="https://www.youtube.com/c/alamkoding" target="_blank">
-                                <i class="fab fa-youtube hover:text-blue-500 text-gray-600 text-xl transition-all duration-200 mr-1.5"></i>
-                            </a>
-                            <a class="no-underline" href="https://www.instagram.com/dev.alamkoding" target="_blank">
-                                <i class="fab fa-instagram hover:text-blue-500 text-gray-600 text-xl transition-all duration-200 mr-1.5"></i>
-                            </a>
-                            <a class="no-underline" href="https://www.facebook.com/" target="_blank">
-                                <i class="fab fa-facebook hover:text-blue-500 text-gray-600 text-xl transition-all duration-200"></i>
-                            </a>
-                        </span>
-                      </div>
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="mx-6 py-10 text-center md:text-left">
-                  <div class="grid grid-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-                    <div class="">
-                      <h6 class="uppercase font-semibold mb-4 flex items-center justify-center md:justify-start">
-                        About Us
-                      </h6>
-                      <p>AlamKoding adalah suatu tim yang bergerak dibidang web development. Tujuan dari alam koding adalah menjadi solusi bagi ide project pelanggan.</p>
-                    </div>
-                    <div class="">
-                      <h6 class="uppercase font-semibold mb-4 flex justify-center md:justify-start">
-                        Products
-                      </h6>
-                      <p class="mb-4">
-                        <a href="#!" class="text-gray-600">Laravel</a>
-                      </p>
-                      <p class="mb-4">
-                        <a href="#!" class="text-gray-600">React</a>
-                      </p>
-                      <p class="mb-4">
-                        <a href="#!" class="text-gray-600">Wordpress</a>
-                      </p>
-                      <p class="mb-4">
-                        <a href="#!" class="text-gray-600">Vue</a>
-                      </p>
-                    </div>
-                    <div class="">
-                      <h6 class="uppercase font-semibold mb-4 flex justify-center md:justify-start">
-                        Useful links
-                      </h6>
-                      <p class="mb-4">
-                        <a href="#!" class="text-gray-600">Layanan</a>
-                      </p>
-                      <p class="mb-4">
-                        <a href="#!" class="text-gray-600">Profil</a>
-                      </p>
-                      <p class="mb-4">
-                        <a href="#!" class="text-gray-600">Anggota Tim</a>
-                      </p>
-                      <p>
-                        <a href="#!" class="text-gray-600">Portfolio</a>
-                      </p>
-                    </div>
-                    <div class="">
-                      <h6 class="uppercase font-semibold mb-4 flex justify-center md:justify-start">
-                        Contact
-                      </h6>
-                      <p class="flex items-center justify-center md:justify-start mb-4">
-                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="home"
-                          class="w-4 mr-4" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
-                          <path fill="currentColor"
-                            d="M280.37 148.26L96 300.11V464a16 16 0 0 0 16 16l112.06-.29a16 16 0 0 0 15.92-16V368a16 16 0 0 1 16-16h64a16 16 0 0 1 16 16v95.64a16 16 0 0 0 16 16.05L464 480a16 16 0 0 0 16-16V300L295.67 148.26a12.19 12.19 0 0 0-15.3 0zM571.6 251.47L488 182.56V44.05a12 12 0 0 0-12-12h-56a12 12 0 0 0-12 12v72.61L318.47 43a48 48 0 0 0-61 0L4.34 251.47a12 12 0 0 0-1.6 16.9l25.5 31A12 12 0 0 0 45.15 301l235.22-193.74a12.19 12.19 0 0 1 15.3 0L530.9 301a12 12 0 0 0 16.9-1.6l25.5-31a12 12 0 0 0-1.7-16.93z">
-                          </path>
-                        </svg>
-                        Bogor, Jawa Barat, Indonesia
-                      </p>
-                      <p class="flex items-center justify-center md:justify-start mb-4">
-                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="envelope"
-                          class="w-4 mr-4" role="img" xmlns="http://www.w3.org/2000/svg"
-                          viewBox="0 0 512 512">
-                          <path fill="currentColor"
-                            d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z">
-                          </path>
-                        </svg>
-                        dev.alamkoding@gmail.com
-                      </p>
-                      <p class="flex items-center justify-center md:justify-start mb-4">
-                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="phone"
-                          class="w-4 mr-4" role="img" xmlns="http://www.w3.org/2000/svg"
-                          viewBox="0 0 512 512">
-                          <path fill="currentColor"
-                            d="M493.4 24.6l-104-24c-11.3-2.6-22.9 3.3-27.5 13.9l-48 112c-4.2 9.8-1.4 21.3 6.9 28l60.6 49.6c-36 76.7-98.9 140.5-177.2 177.2l-49.6-60.6c-6.8-8.3-18.2-11.1-28-6.9l-112 48C3.9 366.5-2 378.1.6 389.4l24 104C27.1 504.2 36.7 512 48 512c256.1 0 464-207.5 464-464 0-11.2-7.7-20.9-18.6-23.4z">
-                          </path>
-                        </svg>
-                        +62 823 3123 1231
-                      </p>
-                    </div>
+                    <p class="testimonial-author">Jude Thorn - Designer</p>
                   </div>
                 </div>
-            </div>
-            <div class="text-center p-6 border-t">
-              <span>© 2022 Copyright </span>
-              <a class="text-gray-600 font-semibold" href="https://alamkoding.com/">AlamKoding</a>
-            </div>
-          </footer>
+              </div>
+              <!-- end of swiper-slide -->
+              <!-- end of slide -->
 
-        <!-- Scripts -->
-        <script src="js/jquery.min.js"></script> <!-- jQuery for JavaScript plugins -->
-        <script src="js/jquery.easing.min.js"></script> <!-- jQuery Easing for smooth scrolling between anchors -->
-        <script src="js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
-        <script src="js/jquery.magnific-popup.js"></script> <!-- Magnific Popup for lightboxes -->
-        <script src="js/scripts.js"></script> <!-- Custom scripts -->
-    </body>
+              <!-- Slide -->
+              <div class="swiper-slide">
+                <div class="card">
+                  <img
+                    class="card-image"
+                    src="images/testimonials/testimonial-2.jpg"
+                    alt="alternative"
+                  />
+                  <div class="card-body">
+                    <p class="italic mb-3">
+                      We were so focused on launching as many campaigns as
+                      possible that we've forgotten to target our loyal
+                      customers
+                    </p>
+                    <p class="testimonial-author">Roy Smith - Developer</p>
+                  </div>
+                </div>
+              </div>
+              <!-- end of swiper-slide -->
+              <!-- end of slide -->
+
+              <!-- Slide -->
+              <div class="swiper-slide">
+                <div class="card">
+                  <img
+                    class="card-image"
+                    src="images/testimonials/testimonial-3.jpg"
+                    alt="alternative"
+                  />
+                  <div class="card-body">
+                    <p class="italic mb-3">
+                      I've been searching for a tool like Pavo for so long. I
+                      love the reports it generates and the amazing high
+                      accuracy
+                    </p>
+                    <p class="testimonial-author">Marsha Singer - Marketer</p>
+                  </div>
+                </div>
+              </div>
+              <!-- end of swiper-slide -->
+              <!-- end of slide -->
+
+              <!-- Slide -->
+              <div class="swiper-slide">
+                <div class="card">
+                  <img
+                    class="card-image"
+                    src="images/testimonials/testimonial-4.jpg"
+                    alt="alternative"
+                  />
+                  <div class="card-body">
+                    <p class="italic mb-3">
+                      We've been waiting for a powerful piece of software that
+                      can help businesses manage their marketing projects
+                    </p>
+                    <p class="testimonial-author">Tim Shaw - Designer</p>
+                  </div>
+                </div>
+              </div>
+              <!-- end of swiper-slide -->
+              <!-- end of slide -->
+
+              <!-- Slide -->
+              <div class="swiper-slide">
+                <div class="card">
+                  <img
+                    class="card-image"
+                    src="images/testimonials/testimonial-5.jpg"
+                    alt="alternative"
+                  />
+                  <div class="card-body">
+                    <p class="italic mb-3">
+                      Searching for a great prototyping and layout design app
+                      was difficult but thankfully I found app suite quickly
+                    </p>
+                    <p class="testimonial-author">Lindsay Spice - Marketer</p>
+                  </div>
+                </div>
+              </div>
+              <!-- end of swiper-slide -->
+              <!-- end of slide -->
+
+              <!-- Slide -->
+              <div class="swiper-slide">
+                <div class="card">
+                  <img
+                    class="card-image"
+                    src="images/testimonials/testimonial-6.jpg"
+                    alt="alternative"
+                  />
+                  <div class="card-body">
+                    <p class="italic mb-3">
+                      The app support team is amazing. They've helped me with
+                      some issues and I am so grateful to the entire team
+                    </p>
+                    <p class="testimonial-author">Ann Blake - Developer</p>
+                  </div>
+                </div>
+              </div>
+              <!-- end of swiper-slide -->
+              <!-- end of slide -->
+            </div>
+            <!-- end of swiper-wrapper -->
+
+            <!-- Add Arrows -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <!-- end of add arrows -->
+          </div>
+          <!-- end of swiper-container -->
+        </div>
+        <!-- end of slider-container -->
+        <!-- end of card slider -->
+      </div>
+      <!-- end of container -->
+    </div>
+    <!-- end of slider-1 -->
+    <!-- end of testimonials -->
+
+    <!-- Conclusion -->
+    <div id="download" class="basic-5">
+      <div class="container px-4 sm:px-8 lg:grid lg:grid-cols-2">
+        <div class="mb-16 lg:mb-0">
+          <img src="images/home/contact-us.svg" alt="alternative" />
+        </div>
+        <div class="lg:mt-24 xl:mt-44 xl:ml-12">
+          <p class="mb-9 text-gray-800 text-3xl leading-10">
+            Jangan buang waktu anda untuk merealisasikan ide project terbaik
+            anda. Hubungi kami sekarang
+          </p>
+          <a class="btn-solid-lg" href="#your-link"
+            ><i class="fab fa-whatsapp"></i>Hubungi Kami</a
+          >
+        </div>
+      </div>
+      <!-- end of container -->
+    </div>
+    <!-- end of basic-5 -->
+    <!-- end of conclusion -->
+
+    <!-- Footer -->
+    <footer class="text-center lg:text-left text-gray-600">
+      <div class="bg-blue-50">
+        <div class="container">
+          <div class="flex justify-center items-center lg:justify-between p-6">
+            <div class="mr-12 hidden lg:block">
+              <span>Get connected with us on social networks:</span>
+            </div>
+            <div class="flex justify-center">
+              <span class="block lg:ml-3.5">
+                <a
+                  class="no-underline"
+                  href="https://wa.me/6285719630485"
+                  target="_blank"
+                >
+                  <i
+                    class="fab fa-whatsapp hover:text-blue-500 text-gray-600 text-xl transition-all duration-200 mr-1.5"
+                  ></i>
+                </a>
+                <a
+                  class="no-underline"
+                  href="https://www.youtube.com/c/alamkoding"
+                  target="_blank"
+                >
+                  <i
+                    class="fab fa-youtube hover:text-blue-500 text-gray-600 text-xl transition-all duration-200 mr-1.5"
+                  ></i>
+                </a>
+                <a
+                  class="no-underline"
+                  href="https://www.instagram.com/dev.alamkoding"
+                  target="_blank"
+                >
+                  <i
+                    class="fab fa-instagram hover:text-blue-500 text-gray-600 text-xl transition-all duration-200 mr-1.5"
+                  ></i>
+                </a>
+                <a
+                  class="no-underline"
+                  href="https://www.facebook.com/"
+                  target="_blank"
+                >
+                  <i
+                    class="fab fa-facebook hover:text-blue-500 text-gray-600 text-xl transition-all duration-200"
+                  ></i>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="mx-6 py-10 text-center md:text-left">
+          <div class="grid grid-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div class="">
+              <h6
+                class="uppercase font-semibold mb-4 flex items-center justify-center md:justify-start"
+              >
+                About Us
+              </h6>
+              <p>
+                AlamKoding adalah suatu tim yang bergerak dibidang web
+                development. Tujuan dari alam koding adalah menjadi solusi bagi
+                ide project pelanggan.
+              </p>
+            </div>
+            <div class="">
+              <h6
+                class="uppercase font-semibold mb-4 flex justify-center md:justify-start"
+              >
+                Products
+              </h6>
+              <p class="mb-4">
+                <a href="#!" class="text-gray-600">Laravel</a>
+              </p>
+              <p class="mb-4">
+                <a href="#!" class="text-gray-600">React</a>
+              </p>
+              <p class="mb-4">
+                <a href="#!" class="text-gray-600">Wordpress</a>
+              </p>
+              <p class="mb-4">
+                <a href="#!" class="text-gray-600">Vue</a>
+              </p>
+            </div>
+            <div class="">
+              <h6
+                class="uppercase font-semibold mb-4 flex justify-center md:justify-start"
+              >
+                Useful links
+              </h6>
+              <p class="mb-4">
+                <a href="services.html" class="text-gray-600">Layanan</a>
+              </p>
+              <p class="mb-4">
+                <a href="about.html" class="text-gray-600">Profil</a>
+              </p>
+              <p class="mb-4">
+                <a href="team.html" class="text-gray-600">Tim Kami</a>
+              </p>
+              <p>
+                <a href="portfolio.html" class="text-gray-600">Portfolio</a>
+              </p>
+            </div>
+            <div class="">
+              <h6
+                class="uppercase font-semibold mb-4 flex justify-center md:justify-start"
+              >
+                Contact
+              </h6>
+              <p class="flex items-center justify-center md:justify-start mb-4">
+                <svg
+                  aria-hidden="true"
+                  focusable="false"
+                  data-prefix="fas"
+                  data-icon="home"
+                  class="w-4 mr-4"
+                  role="img"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 576 512"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M280.37 148.26L96 300.11V464a16 16 0 0 0 16 16l112.06-.29a16 16 0 0 0 15.92-16V368a16 16 0 0 1 16-16h64a16 16 0 0 1 16 16v95.64a16 16 0 0 0 16 16.05L464 480a16 16 0 0 0 16-16V300L295.67 148.26a12.19 12.19 0 0 0-15.3 0zM571.6 251.47L488 182.56V44.05a12 12 0 0 0-12-12h-56a12 12 0 0 0-12 12v72.61L318.47 43a48 48 0 0 0-61 0L4.34 251.47a12 12 0 0 0-1.6 16.9l25.5 31A12 12 0 0 0 45.15 301l235.22-193.74a12.19 12.19 0 0 1 15.3 0L530.9 301a12 12 0 0 0 16.9-1.6l25.5-31a12 12 0 0 0-1.7-16.93z"
+                  ></path>
+                </svg>
+                Bogor, Jawa Barat, Indonesia
+              </p>
+              <p class="flex items-center justify-center md:justify-start mb-4">
+                <svg
+                  aria-hidden="true"
+                  focusable="false"
+                  data-prefix="fas"
+                  data-icon="envelope"
+                  class="w-4 mr-4"
+                  role="img"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 512 512"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"
+                  ></path>
+                </svg>
+                dev.alamkoding@gmail.com
+              </p>
+              <p class="flex items-center justify-center md:justify-start mb-4">
+                <svg
+                  aria-hidden="true"
+                  focusable="false"
+                  data-prefix="fas"
+                  data-icon="phone"
+                  class="w-4 mr-4"
+                  role="img"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 512 512"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M493.4 24.6l-104-24c-11.3-2.6-22.9 3.3-27.5 13.9l-48 112c-4.2 9.8-1.4 21.3 6.9 28l60.6 49.6c-36 76.7-98.9 140.5-177.2 177.2l-49.6-60.6c-6.8-8.3-18.2-11.1-28-6.9l-112 48C3.9 366.5-2 378.1.6 389.4l24 104C27.1 504.2 36.7 512 48 512c256.1 0 464-207.5 464-464 0-11.2-7.7-20.9-18.6-23.4z"
+                  ></path>
+                </svg>
+                +62 823 3123 1231
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="text-center p-6 border-t">
+        <span>© 2022 Copyright </span>
+        <a class="text-gray-600 font-semibold" href="https://alamkoding.com/"
+          >AlamKoding</a
+        >
+      </div>
+    </footer>
+    <!-- end of footer -->
+
+    <!-- Scripts -->
+    <script src="js/jquery.min.js"></script>
+    <!-- jQuery for JavaScript plugins -->
+    <script src="js/jquery.easing.min.js"></script>
+    <!-- jQuery Easing for smooth scrolling between anchors -->
+    <script src="js/swiper.min.js"></script>
+    <!-- Swiper for image and text sliders -->
+    <script src="js/jquery.magnific-popup.js"></script>
+    <!-- Magnific Popup for lightboxes -->
+    <script src="js/scripts.js"></script>
+    <!-- Custom scripts -->
+  </body>
 </html>
