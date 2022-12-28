@@ -47,6 +47,7 @@
     <link href="css/swiper.css" rel="stylesheet" />
     <link href="css/magnific-popup.css" rel="stylesheet" />
     <link href="css/styles.css" rel="stylesheet" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <!-- Favicon  -->
     <link rel="icon" href="images/favicon.ico" />
@@ -169,7 +170,7 @@
       class="header py-28 text-center md:pt-36 lg:text-left xl:pt-44 xl:pb-32"
     >
       <div class="container px-4 sm:px-8 lg:grid lg:grid-cols-2 lg:gap-x-8">
-        <div class="mb-16 xl:mr-12">
+        <div class="mb-16 xl:mr-12" data-aos="zoom-in-down" data-aos-delay="300">
           <h1 class="h1-large mb-5">
             Realisasikan Ide Website anda dengan Kami
           </h1>
@@ -183,12 +184,12 @@
             <i class="fab fa-whatsapp"></i> Hubungi Kami
           </a>
         </div>
-        <div class="xl:text-right">
+        <div class="xl:text-right" data-aos="zoom-in-down" data-aos-delay="300">
           <img class="inline" src="images/home/hero.svg" alt="alternative" />
         </div>
       </div>
       <!-- end of container -->
-      <div class="container px-4 sm:px-8 flex flex-wrap gap-12 justify-center">
+      <div class="container px-4 sm:px-8 flex flex-wrap gap-12 justify-center" data-aos="zoom-in-up">
         <img
           class="full h-20 opacity-50 hover:opacity-100 ease-in-out duration-300"
           src="/images/icons/php.svg"
@@ -220,7 +221,7 @@
     <!-- end of header -->
 
     <!-- Introduction -->
-    <div class="pt-4 pb-14 text-center">
+    <div class="pt-4 pb-14 text-center" data-aos="zoom-in-down">
       <div class="container px-4 sm:px-8 xl:px-4">
         <p
           class="mb-4 text-gray-800 text-3xl leading-10 lg:max-w-5xl lg:mx-auto"
@@ -234,7 +235,7 @@
     <!-- end of introduction -->
 
     <!-- Features -->
-    <div id="features" class="cards-1">
+    <div id="features" data-aos="fade-up" data-aos-delay="300" class="cards-1">
       <div class="container px-4 sm:px-8 xl:px-4">
         <!-- Card -->
         <div class="card">
@@ -291,7 +292,7 @@
 
     <!-- Details 1 -->
     <div id="details" class="pt-12 pb-16 lg:pt-16">
-      <div class="container px-4 sm:px-8 lg:grid lg:grid-cols-12 lg:gap-x-12">
+      <div class="container px-4 sm:px-8 lg:grid lg:grid-cols-12 lg:gap-x-12" data-aos="zoom-in-down">
         <div class="lg:col-span-5">
           <div class="mb-16 lg:mb-0 xl:mt-16">
             <h2 class="mb-6">Mengapa harus Kami?</h2>
@@ -324,7 +325,7 @@
 
     <!-- Details 2 -->
     <div class="py-24 bg-blue-50">
-      <div class="container px-4 sm:px-8 lg:grid lg:grid-cols-12 lg:gap-x-12">
+      <div class="container px-4 sm:px-8 lg:grid lg:grid-cols-12 lg:gap-x-12"  data-aos="zoom-in-down">
         <div class="lg:col-span-7">
           <div class="mb-12 lg:mb-0 xl:mr-14">
             <img
@@ -434,7 +435,7 @@
 
     <!-- Details 3 -->
     <div class="pt-16 pb-12">
-      <div class="container px-4 sm:px-8 lg:grid lg:grid-cols-12 lg:gap-x-12">
+      <div class="container px-4 sm:px-8 lg:grid lg:grid-cols-12 lg:gap-x-12" data-aos="zoom-in-down">
         <div class="lg:col-span-5">
           <div class="mb-16 lg:mb-0 xl:mt-16">
             <h2 class="mb-6">Harga Terbaik</h2>
@@ -467,7 +468,7 @@
 
     <!-- Testimonials -->
     <div class="slider-1 py-32 bg-gray">
-      <div class="container px-4 sm:px-8">
+      <div class="container px-4 sm:px-8" data-aos="zoom-in-down">
         <h2 class="mb-12 text-center lg:max-w-xl lg:mx-auto">
           Apa kata mereka
         </h2>
@@ -617,7 +618,7 @@
 
     <!-- Conclusion -->
     <div id="download" class="basic-5">
-      <div class="container px-4 sm:px-8 lg:grid lg:grid-cols-2">
+      <div class="container px-4 sm:px-8 lg:grid lg:grid-cols-2" data-aos="zoom-in-up">
         <div class="mb-16 lg:mb-0">
           <img src="images/home/contact-us.svg" alt="alternative" />
         </div>
@@ -823,6 +824,11 @@
     <script src="js/jquery.magnific-popup.js"></script>
     <!-- Magnific Popup for lightboxes -->
     <script src="js/scripts.js"></script>
+    <!-- Animate On Scroll -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <!-- Custom scripts -->
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
