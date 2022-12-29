@@ -45,6 +45,7 @@
     <link href="css/swiper.css" rel="stylesheet" />
     <link href="css/magnific-popup.css" rel="stylesheet" />
     <link href="css/styles.css" rel="stylesheet" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <!-- Favicon  -->
     <link rel="icon" href="images/favicon.png" />
@@ -97,7 +98,7 @@
               <a class="nav-link" href="products.html">Produk</a>
             </li>
             <li>
-              <a class="nav-link" href="contacts.html">Hubungi Kami</a>
+              <a class="nav-link" href="contact.html">Hubungi Kami</a>
             </li>
             <li class="dropdown">
               <a
@@ -167,7 +168,7 @@
 
     <!-- Header -->
     <header class="ex-header bg-gray">
-      <div class="container mx-auto px-4 sm:px-8 xl:max-w-5xl xl:px-12">
+      <div class="container mx-auto px-4 sm:px-8 xl:max-w-5xl xl:px-12" data-aos="fade-down">
         <h1>Layanan</h1>
       </div>
       <!-- end of container -->
@@ -176,7 +177,7 @@
     <!-- end of header -->
 
     <!-- Introduction -->
-    <div class="pt-20 text-center">
+    <div class="pt-20 text-center" data-aos="zoom-in-left">
       <div class="container px-4 sm:px-8 xl:px-4">
         <p
           class="mb-4 text-gray-800 text-3xl leading-10 lg:max-w-5xl lg:mx-auto"
@@ -190,7 +191,7 @@
     <!-- end of introduction -->
 
     <!-- Features -->
-    <div id="features" class="cards-1">
+    <div id="features" class="cards-1" data-aos="zoom-in-down">
       <!-- Card -->
       <div class="card">
         <div class="card-image">
@@ -428,6 +429,11 @@
     <script src="js/jquery.magnific-popup.js"></script>
     <!-- Magnific Popup for lightboxes -->
     <script src="js/scripts.js"></script>
+    <!-- Animate On Scroll -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <!-- Custom scripts -->
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
