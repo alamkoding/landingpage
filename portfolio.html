@@ -31,7 +31,7 @@
     <!-- to have large image post format in Twitter -->
 
     <!-- Webpage Title -->
-    <title>Tentang Kami - Alam Koding</title>
+    <title>Portfolio - Alam Koding</title>
 
     <!-- Styles -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -85,37 +85,41 @@
           class="navbar-collapse offcanvas-collapse lg:flex lg:flex-grow lg:items-center"
           id="navbarsExampleDefault"
         >
-        <ul
-        class="pl-0 mt-3 mb-2 ml-auto flex flex-col list-none lg:mt-0 lg:mb-0 lg:flex-row"
-      >
-        <li>
-          <a class="nav-link" href="index.html">Home</a>
-        </li>
-        <li>
-          <a class="nav-link" href="services.html">Layanan</a>
-        </li>
-        <li>
-          <a class="nav-link" href="products.html">Produk</a>
-        </li>
-        <li>
-          <a class="nav-link" href="contact.html">Hubungi Kami</a>
-        </li>
-        <li class="dropdown">
-          <a
-            class="nav-link dropdown-toggle"
-            href="about.html"
-            id="dropdown01"
-            data-toggle="dropdown"
-            aria-haspopup="true"
-            aria-expanded="false"
-            >Tentang Kami</a
+          <ul
+            class="pl-0 mt-3 mb-2 ml-auto flex flex-col list-none lg:mt-0 lg:mb-0 lg:flex-row"
           >
-          <div class="dropdown-menu" aria-labelledby="dropdown01">
-            <a class="dropdown-item page-scroll" href="team.html">Tim Kami</a>
-            <a class="dropdown-item page-scroll" href="portfolio.html">Portfolio</a>
-          </div>
-        </li>
-      </ul>
+            <li>
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li>
+              <a class="nav-link" href="services.html">Layanan</a>
+            </li>
+            <li>
+              <a class="nav-link" href="products.html">Produk</a>
+            </li>
+            <li>
+              <a class="nav-link" href="contact.html">Hubungi Kami</a>
+            </li>
+            <li class="dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="about.html"
+                id="dropdown01"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+                >Tentang Kami</a
+              >
+              <div class="dropdown-menu" aria-labelledby="dropdown01">
+                <a class="dropdown-item page-scroll" href="team.html"
+                  >Tim Kami</a
+                >
+                <a class="dropdown-item page-scroll" href="portfolio.html"
+                  >Portfolio</a
+                >
+              </div>
+            </li>
+          </ul>
           <span class="block lg:ml-3.5 font-normal">
             <a
               class="no-underline"
@@ -165,36 +169,56 @@
     <!-- Header -->
     <header class="ex-header bg-gray">
       <div class="container mx-auto px-4 sm:px-8 xl:max-w-5xl xl:px-12" data-aos="fade-down">
-        <h1>Tentang Kami</h1>
+        <h1>Portfolio</h1>
       </div>
       <!-- end of container -->
     </header>
     <!-- end of ex-header -->
     <!-- end of header -->
 
-    <!-- Basic -->
-    <div class="ex-basic-1 py-12" data-aos="zoom-in-down">
-      <div class="container mx-auto px-4 sm:px-8 xl:max-w-5xl xl:px-12 text-gray-800">
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-          <div class="text-left">
-            <h3 class="mb-4">Kami Percaya dengan teknologi informasi dapat mempermudah kegiatan usaha dan bisnis kita.</h3>
-            <hr class="w-11 h-0.5 mt-0.5 mb-4 ml-0 border-none bg-blue-500">
-            <p class="mb-4 text-gray-800">
-                AlamKoding berdiri sejak tahun 2018 yang tersedia juga pada platform channel Youtube. Ikuti Kami untuk mendapatkan info menarik seputar Sistem Informasi, Teknologi terbaru seputar pemrograman dan tentu saja tentang Koding.
-            </p>
-            <a class="btn-solid-lg secondary" href="contact.html">
-              <i class="fab fa-whatsapp"></i> Hubungi Kami
-            </a>
-          </div>
-          <div class="text-center">
-            <img class="h-100 w-full" src="images/pages/about.svg" alt="About Image">
-          </div>
-        </div>
+    <!-- Features -->
+    <div id="features" data-aos="fade-up" data-aos-delay="300" class="cards-1 mb-10">
+      <div class="container mx-auto px-4 sm:px-8 xl:max-w-5xl xl:px-12">
+        <p class="mb-4">Berikut ini adalah project yang telah selesai kami kerjakan.</p>
+        <table class="table-auto w-full border-collapse border border-slate-400 ">
+          <thead>
+            <tr>
+              <th class="border border-slate-300 px-3 py-2">
+                No
+              </th>
+              <th class="border border-slate-300 px-3 py-2">
+                Nama Aplikasi
+              </th>
+              <th class="border border-slate-300 px-3 py-2">
+                Klien
+              </th>
+              <th class="border border-slate-300 px-3 py-2">
+                Tanggal Selesai
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="border border-slate-300 px-3 py-2">
+                1
+              </td>
+              <td class="border border-slate-300 px-3 py-2">
+                Update Fitur Aplikasi Pembayaran SPP
+              </td>
+              <td class="border border-slate-300 px-3 py-2">
+                SMPN 1 Cilunjak
+              </td>
+              <td class="border border-slate-300 px-3 py-2">
+                2022-12-01
+              </td>
+            </tr>
+          </tbody>
+        </table>
       </div>
       <!-- end of container -->
     </div>
-    <!-- end of ex-basic-1 -->
-    <!-- end of basic -->
+    <!-- end of cards-1 -->
+    <!-- end of features -->
 
     <!-- Footer -->
     <footer class="text-center lg:text-left text-gray-600">
